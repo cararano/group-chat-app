@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+
+body {
+  margin: 0 auto;
+}
+body {
+	width: 100%;
+	background:url('bg_magenta_gradient.svg') no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: .3%;
+  padding-left: 2%;
+  color: rgb(43, 16, 47);
+  margin-bottom: 15px;
+}
+.sidebar ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000;
+  list-style-type: none;
+  list-style-position:inside;
+  padding: 0px 0px 0px 20px;
+  line-height: 170%;
+}
+.sidebar {
+  background-color: #fff;
+  margin: 30px;
+  width: 400px;
+  opacity: .9;
+  float: right;
+}
+#messages .inbox div {
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 15px 15px 15px 30px;
+  padding: 2%;
+  width: 400px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  opacity: .6;
+}
+#messages .outbox div {
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 15px 15px 15px 100px;
+  padding: 2%;
+  width: 400px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  opacity: .8;
+}
+#messages {
+  float: left;
+}
+.textbox {
+  background: #fff;
+  height: 200px;
+  width: 410px;
+  border-radius: 15px;
+  border: none;
+  color: #000;
+  opacity: .9;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  outline: none;
+}
+img {
+  width: 60px;;
+}
+header img {
+  float: right;
+  display: inline;
+}
+.send {
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+text-transform: uppercase;
+background-color: rgb(43, 16, 47);
+padding: 2%;
+color: #fff;
+margin-bottom: 15px;
+margin-left: 450px;
+border-radius: 15px;
+width: 45px;
+}
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+/* mouse over link */
+a:hover   {
+    color: #e87e04;
+}
+/* selected link */
+a:active  {
+    color: #e87e04;
+}
